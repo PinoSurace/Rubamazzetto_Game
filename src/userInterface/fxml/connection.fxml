@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userInterface.controllers.ConnectionController">
+   <children>
+      <ImageView fx:id="image" fitHeight="406.0" fitWidth="624.0" layoutX="-2.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true" />
+      <JFXButton fx:id="buttonRMI" layoutX="91.0" layoutY="313.0" prefHeight="41.0" prefWidth="79.0" style="-fx-background-color: white;" text="RMI" />
+      <JFXButton fx:id="buttonSocket" layoutX="241.0" layoutY="313.0" prefHeight="41.0" prefWidth="79.0" style="-fx-background-color: white;" text="Socket" />
+      <Label alignment="CENTER" layoutX="111.0" layoutY="255.0" prefHeight="33.0" prefWidth="183.0" style="-fx-background-color: white;" text="Scegli il tipo di  connessione" textFill="#000d03" />
+   </children>
+</Pane>

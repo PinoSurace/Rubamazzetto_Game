@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userInterface.controllers.LobbyController">
+   <children>
+      <JFXButton fx:id="partita4" alignment="CENTER" contentDisplay="CENTER" layoutX="113.0" layoutY="64.0" style="-fx-background-color: white;" text="nuova partita (4 giocatori)" />
+      <JFXButton fx:id="partita3" alignment="CENTER" contentDisplay="CENTER" layoutX="113.0" layoutY="111.0" style="-fx-background-color: white;" text="nuova partita (3 giocatori)" />
+      <JFXButton fx:id="partita2" alignment="CENTER" contentDisplay="CENTER" layoutX="113.0" layoutY="155.0" style="-fx-background-color: white;" text="nuova partita (2 giocatori)" />
+      <JFXButton fx:id="entraInPartita" alignment="CENTER" contentDisplay="CENTER" layoutX="142.0" layoutY="200.0" style="-fx-background-color: white;" text="entra in partita" />
+   </children>
+</Pane>
