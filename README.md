@@ -1,0 +1,1 @@
+My first Java project, mad using Socket and RMI technologies for the Client-Server communication. It has been done n less than two months so the code is not commented and design patterns are not used well.
